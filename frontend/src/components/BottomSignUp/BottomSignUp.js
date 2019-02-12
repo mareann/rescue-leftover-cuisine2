@@ -6,8 +6,7 @@ class BottomSignUp extends Component {
 
   render (){
       return(
-        <div className="container-fluid containerSection">
-          <div className="bottomSignUp">
+        <div className="container-fluid bottom-container-section">
             <div className="row">
               <div className="col">
                 <img className="signupImage" src={signupImage} alt="sign up"/>
@@ -26,7 +25,6 @@ class BottomSignUp extends Component {
                 </p>
               </div>
             </div>
-          </div>
         </div>
       )
   }
