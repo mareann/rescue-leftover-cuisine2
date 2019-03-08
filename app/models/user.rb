@@ -7,4 +7,6 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable,
          :confirmable, :jwt_authenticatable,
          jwt_revocation_strategy: JWTBlacklist
+
+  has_one_attached :profile_pic
 end
